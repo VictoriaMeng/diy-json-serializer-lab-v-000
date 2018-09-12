@@ -9,8 +9,8 @@
       debugger;
       $.getJSON("/products/" + nextId + "/data", function(data) {
         debugger;
-        $(".name").text(data["name"]);
-        $(".desc").text(data["description"])
+        $("#name").text(data["name"]);
+        $("#desc").text(data["description"])
         $(".js-next").attr("data-id", data["id"])
       });
     });
