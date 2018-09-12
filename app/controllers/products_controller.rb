@@ -27,7 +27,7 @@ class ProductsController < ApplicationController
     render json: ProductSerializer.serialize(product)
   end
 
-  def show 
+  def show
   end
 
   private
